@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Olivia Nielson">
+    <meta name="description" content="Olivia Ann Art">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="design.css">
+    <title>Olivia Ann Art: Home</title>
+</head>
+
+<body>
+    <!-- start the page head-->
+    <header>
+        <span>Olivia Ann Art</span>
+    </header>
+
+    <!-- start the page navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="digitaldesign.html">Digital Design</a></li>
+            <li><a href="materialdesign.html">Material Design</a></li>
+            <li><a href="collectiveworks.html">Collective Works</a></li>
+            <li class="active"><a href="newsletter.html">Newsletter</a></li>
+        </ul>
+
+    </nav>
+    <!-- start the page main content-->
+    <main>
+        <h1>Newsletter</h1>
+        <p>If you would like updates on my works and progress, please consider filling out the form below!
+        </p>
+
+
+        <form method="get" class="newsForm" action="thanks.html">
+
+<fieldset>
+    <legend>Please select your preferred contact method</legend>
+<label><input type="checkbox" name="email" value="yes"> Email</label>
+<label><input type="checkbox" name="text" value="yes"> Text</label>
+<label><input type="checkbox" name="letter" value="yes"> Letter</label>
+
+</fieldset>
+
+<fieldset>
+    <legend>Contact Information</legend>
+<label>First Name* <input type="text" name="fname" required></label>
+<label>Last Name* <input type="text" name="lname" required></label>
+<label>Phone Number <input type="tel" name="phone" placeholder="123-456-7890"></label>
+<label>Email* <input type="email" name="email" required placeholder="example@example.com"></label>
+</fieldset>
+
+<fieldset>
+    <legend>Preferred update type and frequency</legend>
+    <label><input type="radio" name="method" value="weekly">Weekly Updates </label>
+    <label><input type="radio" name="method" value="monthly">Monthly Updates </label>
+    <label><input type="radio" name="method" value="yearly">Yearly Updates </label>
+    
+    <label> What type of art are you interested in?
+        <select name="time">
+            <option value="none">Please Select</option>
+            <option value="material art">Material Art</option>
+            <option value="digital art">Digital Art</option>
+            <option value="all projects">All Projects</option>
+        
+        
+        </select>
+        </label>
+
+    </fieldset>
+
+    <label> Please add any feedback regarding questions or comments about the newsletter or my art and website. Thank you!
+        <textarea name="comments"></textarea>
+        </label>
+
+    
+
+
+<input type="submit" value="Send Newsletter Request">
+</form>
+       
+
+
+
+
+
+
+
+
+    </main>
+
+    <!-- start the page footer-->
+    <footer>
+        <p>&copy; &bull; 2025 Olivia Nielson &bull; Web Essentials</p>
+    </footer>
+
+</body>
+
+</html>
