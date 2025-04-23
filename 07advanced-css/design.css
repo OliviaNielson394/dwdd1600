@@ -204,11 +204,11 @@ figure.front-pic {
         margin: .5rem;
         }
         
-        .newsForm label, .newsForm select, .newsForm [type=text], .newsForm [type=tel], .newsForm textarea {
+        .newsForm label, .newsForm select, .newsForm [type=text], .newsForm [type=tel], .newsForm [type=email], .newsForm textarea {
         display: block;
         }
         
-        .newsForm [type=text], .newsForm [type=tel], .newsForm select, .newsForm textarea
+        .newsForm [type=text], .newsForm [type=tel], .newsForm [type=email], .newsForm select, .newsForm textarea
         {
             border: solid 1px #c4a178;
             padding: .3rem;
