@@ -158,7 +158,7 @@ table.our-activities tr:nth-child(odd) {
     background-color: #f7f7f7;
 }
 table.our-activities tr:hover {
-    background-color: rgba(84, 105, 31, 0.2)
+    background-color: rgba(84, 105, 31, 0.2);
 }
 
 /* footer stuff here */
